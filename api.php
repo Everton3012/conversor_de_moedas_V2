@@ -8,8 +8,8 @@
 </head>
 <body>
     <main>
-        <h1>Conversor de Moedas: Euro e Dolar</h1>
-        <p>
+        <h1>Resultado da Conversão</h1>
+        
             <?php 
                 $inicio = date("m-d-Y" , strtotime("-7 days"));
 
@@ -31,7 +31,7 @@
 
                 echo "Seus " . numfmt_format_currency($padrao, $real, "BRL") . " equivale a " . numfmt_format_currency($padrao, $resultado, $moeda);
             ?>
-            </p>
+            
         <button onclick="javascript:window.location.href='index.html';">&#x2B05; Voltar</button>
     </main>
 </body>

@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Conversor de Real para Euro e Dolar</h1>
+   <main>
+    <h1>Conversor de Moeda</h1>
     <form action="api.php" method="post">
-        <label for="real"></label>
+        <label for="real">carteira atual</label>
         <input type="number" name="real">
         <select name="moeda" id="moeda">
             <option value="USD">Dolar</option>
@@ -24,5 +25,6 @@
           </select>
         <input type="submit" value="Enviar">
     </form>
+   </main>
 </body>
 </html>
